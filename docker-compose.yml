@@ -14,4 +14,7 @@ services:
     ports:
       - "5002:5002"
 
-
+  service4:
+    build: ./service4
+    ports:
+      - "5004:5004"
