@@ -10,4 +10,4 @@ def my_service():
     return jsonify({"message": "Hola, desde el servicio de Jordan Lopez"})
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5009)
+    app.run(host="0.0.0.0", port=5009, debug=True)
