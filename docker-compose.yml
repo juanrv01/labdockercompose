@@ -13,6 +13,11 @@ services:
     build: ./service2
     ports:
       - "5002:5002"
+
+  service3:
+    build: ./service3
+    ports:
+      - "5003:5003"
       
   service4:
     build: ./service4
