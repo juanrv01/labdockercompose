@@ -33,3 +33,8 @@ services:
     build: ./service8
     ports:
       - "5008:5008"
+
+  service9:
+    build: ./service9
+    ports:
+      - "5009:5009"
