@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { name: "Service 4", url: "http://localhost:5004/api" },
         { name: "Service 5", url: "http://localhost:5005/api" },
         { name: "Service 7", url: "http://localhost:5007/api" },
+        { name: "Service 8", url: "http://localhost:5008/api" },
 
     ];
 
