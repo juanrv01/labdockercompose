@@ -1,12 +1,17 @@
 document.addEventListener("DOMContentLoaded", function () {
     const services = [
-       /* { name: "Service 1", url: "http://localhost:5001/api" }, */
+        { name: "Service 1", url: "http://localhost:5001/api" },
         { name: "Service 2", url: "http://localhost:5002/api" },
-      /*  { name: "Service 3", url: "http://localhost:5003/api" } */
+        { name: "Service 4", url: "http://localhost:5004/api" },
+        { name: "Service 5", url: "http://localhost:5005/api" },
+        { name: "Service 7", url: "http://localhost:5007/api" },
+        { name: "Service 8", url: "http://localhost:5008/api" },
         { name: "Service 9", url: "http://localhost:5009/api" }
     ];
 
     const list = document.getElementById("services-list");
+
+    list.innerHTML = '';
 
     services.forEach(service => {
         fetch(service.url)
