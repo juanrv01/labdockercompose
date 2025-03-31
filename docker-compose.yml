@@ -14,4 +14,7 @@ services:
     ports:
       - "5002:5002"
 
-
+  service8:
+    build: ./service8
+    ports:
+      - "5008:5008"
